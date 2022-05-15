@@ -17,7 +17,8 @@ const getAllData = () => {
             const allData = response.data.fishData.allData;
             getFishData(allData);
         })
-    .catch(error => console.error(`Error: ${error.message}`));
+        .catch(error => console.error(`Error: ${error.message}`));
+    return fishData;
 }
     
 
