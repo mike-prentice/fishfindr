@@ -1,7 +1,7 @@
 import React from 'react';
-import { GetFishData } from './GetFishData';
+import { GetFishData } from '../apis/GetFishData';
 
-class home extends React.Component {
+class Home extends React.Component {
 
 
   render() {
@@ -10,4 +10,4 @@ class home extends React.Component {
     );
   }
 }
-export default home;
+export default Home;
