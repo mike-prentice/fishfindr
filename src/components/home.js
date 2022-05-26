@@ -1,13 +1,5 @@
-import React from 'react';
-import { GetFishData } from '../apis/GetFishData';
-
-class Home extends React.Component {
-
-
-  render() {
-    return (
-      <></>
-    );
-  }
+const Home = () => {
+  return ( <></> );
 }
+ 
 export default Home;
