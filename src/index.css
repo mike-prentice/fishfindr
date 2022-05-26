@@ -25,3 +25,17 @@
   color: darkgray;
 }
 
+.home {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  justify-content: center;
+}
+
+.my-input {
+  max-width: 600px;
+  position: absolute;
+  
+}
+

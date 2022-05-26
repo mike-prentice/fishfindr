@@ -22,7 +22,7 @@ const Navbar = () => {
             <li className="nav-item active">
               <Link to="/">
                 <a className="nav-link" href="/">
-                  Home <span className="sr-only">(current)</span>
+                  Home 
                 </a>
               </Link>
             </li>
