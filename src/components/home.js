@@ -5,7 +5,11 @@ import { useState, useEffect } from 'react';
 
 const Home = () => {
 
-  const [fishName, setFishName] = useState('');
+  const [fishName, setFishName] = useState([
+    { title: 'First Fish', body: 'lorem ipsum...', author: 'Mike', id: 1 },
+    { title: 'Second Fish', body: 'lorem ipsum...', author: 'Mike', id: 1 },
+    {title: 'Third Fish', body: 'lorem ipsum...', author: 'Mike', id: 1}
+  ]);
 
   useEffect(() => {
     setFishName('Nemo');
