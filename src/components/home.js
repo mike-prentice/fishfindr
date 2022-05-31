@@ -11,14 +11,14 @@ const Home = () => {
     {title: 'Third Fish', body: 'lorem ipsum...', author: 'Mike', id: 3}
   ]);
 
-  useEffect(() => {
-    setFishName('Nemo');
-  }, []);
+  // useEffect(() => {
+  //   setFishName('Nemo');
+  // }, []);
 
   return (<div className="home">
     {fishName.map((fish) => (
       <div className="fish" key={fish.id}>
-        <h2>{fish.name}</h2>
+        <h2>{fish.title}</h2>
         <p>{ fish.body}</p>
       </div>
     ))}
@@ -29,7 +29,7 @@ const Home = () => {
     <div className="card" style={{ width: "18rem" }}>
   {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
   <div className="card-body">
-    <h5 className="card-title">{fishName}</h5>
+    <h5 className="card-title">Fish Name</h5>
     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <ul className="list-group list-group-flush">
