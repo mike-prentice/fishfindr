@@ -16,6 +16,12 @@ const Home = () => {
   }, []);
 
   return (<div className="home">
+    {fishName.map((fish) => (
+      <div className="fish" key={fish.id}>
+        <h2>{fish.name}</h2>
+        <p>{ fish.body}</p>
+      </div>
+    ))}
     <form className="form-inline">
   <input className="my-input form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
   <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
