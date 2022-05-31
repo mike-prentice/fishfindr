@@ -7,8 +7,8 @@ const Home = () => {
 
   const [fishName, setFishName] = useState([
     { title: 'First Fish', body: 'lorem ipsum...', author: 'Mike', id: 1 },
-    { title: 'Second Fish', body: 'lorem ipsum...', author: 'Mike', id: 1 },
-    {title: 'Third Fish', body: 'lorem ipsum...', author: 'Mike', id: 1}
+    { title: 'Second Fish', body: 'lorem ipsum...', author: 'Mike', id: 2 },
+    {title: 'Third Fish', body: 'lorem ipsum...', author: 'Mike', id: 3}
   ]);
 
   useEffect(() => {
